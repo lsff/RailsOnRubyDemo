@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael Example | Ruby on Rails Tutorial Sample App</title>
+    
+    <link rel="stylesheet" media="all" href="/assets/application-8b4b842909d5daa61155a462a8b6a8c9492e7ca95af1b1a4547df1fd598ffdbf.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-889e23c0b702d62316dc255dcbdb5461e8b51a24ee5df1c880a0fd2b65c01705.js" data-turbolinks-track="reload"></script>
+  </head>
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  </script>
+<![endif]-->
+
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <a id="logo" href="/">sample app</a>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Home</a></li>
+        <li><a href="/help">Help</a></li>
+          <li><a href="/login">Log in</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+ 
+    <div class="container">
+      
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <img alt="Michael Example" class="gravatar" src="https://secure.gravatar.com/avatar/03ea78c0884c9ac0f73e6af7b9649e90?s=" />
+        Michael Example
+      </h1>
+    </section>
+  </aside>
+  <div class="col-md-8">
+      <h3>Microposts (34)</h3>
+      <ol class="microposts">
+        
+      </ol>
+      <div class="pagination"><ul class="pagination"><li class="prev previous_page "><a rel="prev" href="/users/762146111?page=762146110">&#8592; Previous</a></li> <li><a href="/users/762146111?page=1">1</a></li> <li><a href="/users/762146111?page=2">2</a></li> <li class="next next_page disabled"><a href="#">Next &#8594;</a></li></ul></div>
+  </div>
+</div>
+
+      <footer class="footer">
+  <small>
+    The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+  </small>
+  <nav>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="http://news.railstutorial.org/">News</a></li>
+    </ul>
+  </nav>
+</footer>
+
+      
+    </div>
+  </body>
+</html>
